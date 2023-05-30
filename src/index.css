@@ -42,7 +42,7 @@ code {
 .gen-form input {
   background-color: rgb(255, 255, 255);
   border: solid;
-  border-color: white!important;
+  border-color: #dad9d9!important;
   border-radius: 1rem;
   border-width: .01rem;
   padding: 1rem 2rem;
