@@ -11,3 +11,86 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 25%;
+
+}
+
+.container h1{
+  margin: 2rem 0 0 0;
+}
+
+
+
+.gen-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+}
+
+.gen-form p {
+  font-size: .8rem;
+  margin: 0;
+}
+
+.gen-form input {
+  background-color: rgb(255, 255, 255);
+  border: solid;
+  border-color: white!important;
+  border-radius: 1rem;
+  border-width: .01rem;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: center;
+  
+  box-shadow: 0 1px 15px -3px rgb(204, 204, 204);
+}
+
+.gen-form button {
+  background-color: rgb(19, 23, 102);
+  padding: .5rem 1rem;
+  border-radius: 1rem;
+  color: white;
+  border-color:rgb(19, 23, 102) ;
+  transition: 200ms;
+  margin-bottom: 3rem;
+}
+
+.gen-form button:hover {
+  background-color: black;
+  border-color:rgb(0, 0, 0); 
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+      padding: 0 10%;
+      align-items: flex-start;
+  }
+
+  .container h1 {
+      font-size: 1.5rem;
+      font-weight: 500;
+  }
+
+  .container p {
+      font-size: 1rem;
+      margin-top: .5rem;
+  }
+
+  .result-image img{
+      width:100%;
+      height: auto;
+  }
+
+  .gen-form p {
+      font-size: .8rem;
+      margin: 0;
+  }
+  
+}
