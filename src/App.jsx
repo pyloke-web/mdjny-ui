@@ -1,12 +1,9 @@
 import ImageGenerationForm from "./components/ImageGenerationForm";
 import './app.css'
-
-function App() {
+const App = () => {
   return (
-    <div>
-      <ImageGenerationForm/>
-    </div>
-  );
+    <ImageGenerationForm/>
+  )
 }
 
-export default App;
+export default App
